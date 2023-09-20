@@ -1,7 +1,7 @@
 # ``` Y0UTube ```
 The project involves the development of a web application that emulates the core features of YouTube, one of the most popular video-sharing platforms. This YouTube clone will allow users to search, view, and interact with videos through a user-friendly interface built with React, styled with Tailwind CSS, and powered by the YouTube Data API obtained from Rapid API.
 
-![Webp net-gifmaker](https://user-images.githubusercontent.com/53748350/268497276-f3dee07e-c736-4676-a603-a5619a20f66d.gif)
+![Webp net-gifmaker](https://user-images.githubusercontent.com/53748350/269269590-2c65ca92-71e3-411c-9fa8-5335f1b8a9a4.gif)
    
    
  
