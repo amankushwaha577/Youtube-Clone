@@ -2,7 +2,7 @@
 The project involves the development of a web application that emulates the core features of YouTube, one of the most popular video-sharing platforms. This YouTube clone will allow users to search, view, and interact with videos through a user-friendly interface built with React, styled with Tailwind CSS, and powered by the YouTube Data API obtained from Rapid API.
 
 ![Webp net-gifmaker](https://user-images.githubusercontent.com/53748350/268497276-f3dee07e-c736-4676-a603-a5619a20f66d.gif)
-  
+   
   
  
    - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `To develop a functional YouTube clone with core features such as video search, video playback, Annotation, Playback speed, CC, Quality size`
