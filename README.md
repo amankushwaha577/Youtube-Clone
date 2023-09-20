@@ -5,11 +5,13 @@ The project involves the development of a web application that emulates the core
    
    
  
-   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `To develop a functional YouTube clone with core features such as video search, video playback, Annotation, Playback speed, CC, Quality size`
+ 
 
-  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `To create a visually appealing and responsive user interface using Tailwind CSS.`
+   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Developed a functional YouTube clone with core features such as video search, video playback, Annotation, Playback speed, CC, Quality size`
 
-  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `To integrate the Rapid API's YouTube Data API for fetching video data.`
+  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Created a visually appealing and responsive user interface using Tailwind CSS.`
+
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Integrated the Rapid API's YouTube Data API for fetching video data.`
    
   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `To allow users to interact with videos through likes, dislikes, and comments.`
 
@@ -26,10 +28,6 @@ The project involves the development of a web application that emulates the core
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `HTML5, CSS3 and Bootstrap4`
 
 
-### DataBase 
-```diff
-Mongo DB
-```
  
 <br>
 
