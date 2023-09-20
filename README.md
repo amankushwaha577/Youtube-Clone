@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# ``` Friend's Spy ```
+I'm thrilled to present my latest project Friend's Spy, A FullStack Social Network Application built entirely from scratch. This project represents a culmination of my web development skills and expertise in modern technologies of MERN Stack. It's a comprehensive social network platform with a wide range of features designed to offer users an engaging and interactive experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Webp net-gifmaker](https://user-images.githubusercontent.com/53748350/268497276-f3dee07e-c736-4676-a603-a5619a20f66d.gif)
+ 
+ 
 
-## Available Scripts
+   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `1. Authentication and Authorization: I've implemented a rock-solid authentication system, including password reset functionality using JWT (JSON Web Tokens). This ensures that user accounts are secure and accessible only by authorized individuals.`
 
-In the project directory, you can run:
+  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `2. Social Login: Users can conveniently sign in using their social media accounts, thanks to the integration of JWT for secure authentication.`
 
-### `npm start`
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `3. CRUD Operations: The application allows users to perform Create, Read, Update, and Delete operations on their posts and comments.`
+   
+  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `4. Image Upload: Users can upload images to personalize their posts and profiles, enhancing the visual appeal of the platform.`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `5. User Relationships: The platform supports user-to-user relationships, including following and unfollowing, enabling users to curate their feeds.`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `6. Likes and Comments: Users can engage with posts through likes and comments, fostering interaction and community building.`
 
-### `npm test`
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `7. Super Admin Access: I've implemented role-based access control, with a Super Admin role to manage users, content, and platform settings.`
+    
+  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `8. Custom reCAPTCHA: To enhance security, custom reCAPTCHA has been integrated to protect against automated threats.`
+    
+ -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `9.Pagination: Efficient pagination systems have been incorporated to handle large datasets gracefully, providing users with seamless browsing experiences.`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `10.Real-Time Communication: The application supports real-time messaging and notifications to keep users engaged and informed.`
+    
+  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `11.SEO Optimization: SEO best practices have been applied to improve the platform's search engine visibility, attracting more users.`
 
-### `npm run build`
+<br><br> 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# LANGUAGES, FRAMEWORKS, LIBRARY AND DATABASE
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ![#BE0DF2](https://via.placeholder.com/15/1589F0/000000?text=+) `REACT.js`
+- ![#1512F8](https://via.placeholder.com/15/1589F0/000000?text=+) `NODE.js`
+- ![#c2E010](https://via.placeholder.com/15/c5f015/000000?text=+) `NEXT.js`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Java Script`
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `HTML5, CSS3 and Bootstrap4`
+- ![#5DF20D](https://via.placeholder.com/15/f03c15/000000?text=+) `Socket.io`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### DataBase 
+```diff
+Mongo DB
+```
+ 
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# ONLINE REACHABILITY:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+TECHNICAL SIDES OF FRIEND'S SPY
+```sh
+1. A FullStack Social Network Application
+2. Rock Solid Authentication with Password Forgot/Password Reset using JWT
+3. Application LogIn using JWT
+4. POST CRUD Operations [ Users ] : Post Upload,Update,Delete | Comment on Post, Comment on Post Delete |
+                                    Post like and unlike | User follow and unfollow |
+                                    User Posts Relationships
+   POST CRUD Operations [ Admin ] : Post Upload,Update,Delete | Comment on Post, Comment on Post Delete |
+                                    Post like and unlike | Admin follow and unfollow |
+                                    Admin Posts Relationships
+                                                                  +
+                                    Update or Delete anyone-s Post | Update or Delete any User
+5. Custom reCAPTCHA
+6. Real Time Communication using Socket.io
+7. Secure DataBase Using MongoDB Database.
+8. Node.js API development for Backend Tool.
+9. SEO (Server Side Rendering) with NextJs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# TEAM FRIEND"S SPY
+| Name | Github Username | 
+| ------ | ------ |
+| Aman Kushwaha | [https://github.com/amankushwaha577/]  |
+| Aman Saxena | [https://github.com/amanS2206/] |
+| Akarshit Srivastava | [https://github.com/akarshit2001/] |
+| Akshat Sinha | [https://github.com/Akshat555624] |
+| Harshit Saxena | [https://github.com/saxenaharshit/] |
 
-### Code Splitting
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+----
+@Copyright Friend's Spy  2021
