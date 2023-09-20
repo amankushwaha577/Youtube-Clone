@@ -38,7 +38,7 @@ Mongo DB
 
 TECHNICAL SIDES 
 ```sh
-1. React: A popular JavaScript library for building user interfaces.
+1. React: JavaScript library for building user interfaces.
 2. Tailwind CSS: A utility-first CSS framework for creating stylish and responsive designs.
 3. Rapid API: A platform for accessing various APIs, including the YouTube Data API.
 
