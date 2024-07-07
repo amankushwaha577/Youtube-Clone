@@ -38,13 +38,13 @@ const Header = () => {
     const pageName = pathname?.split("/")?.filter(Boolean)?.[0];
 
     return (
-        <div className="sticky top-0 z-10 flex flex-row items-center justify-between h-14 px-4 md:px-5 bg-white dark:bg-black">
+        <div className="sticky top-0 z-10 flex flex-row items-center justify-between h-14 px-4 md:px-5 bg-black">
             {loading && <Loader />}
 
             <div className="flex h-5 items-center">
                 {pageName !== "video" && (
                     <div
-                        className="flex md:hidden md:mr-6 cursor-pointer items-center justify-center h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]"
+                        className="flex md:hidden md:mr-6 cursor-pointer items-center justify-center h-10 w-10 rounded-full hover:bg-gray-700"
                         onClick={mobileMenuToggle}
                     >
                         {mobileMenu ? (
@@ -54,21 +54,21 @@ const Header = () => {
                         )}
                     </div>
                 )}
-                <Link to="/" className="flex h-5 items-center">
+                <Link to="/" className="flex h-8 items-center">
                     <img
-                        className="h-full hidden dark:md:block"
+                        className="h-full dark:md:block"
                         src={ytLogo}
                         alt="Youtube"
                     />
-                    <img
+                    {/* <img
                         className="h-full md:hidden"
                         src={ytLogoMobile}
                         alt="Youtube"
-                    />
+                    /> */}
                 </Link>
             </div>
             <div className="group flex items-center">
-                <div className="flex h-8 md:h-10 md:ml-10 md:pl-5 border border-[#303030] rounded-l-3xl group-focus-within:border-blue-500 md:group-focus-within:ml-5 md:group-focus-within:pl-0">
+                <div className="flex h-8 md:h-10 md:ml-10 md:pl-5 border border-gray-700 rounded-l-3xl group-focus-within:border-blue-500 md:group-focus-within:ml-5 md:group-focus-within:pl-0">
                     <div className="w-10 items-center justify-center hidden group-focus-within:md:flex">
                         <IoIosSearch className="text-white text-xl" />
                     </div>
@@ -82,7 +82,7 @@ const Header = () => {
                     />
                 </div>
                 <button
-                    className="w-[40px] md:w-[60px] h-8 md:h-10 flex items-center justify-center border border-l-0 border-[#303030] rounded-r-3xl bg-white/[0.1]"
+                    className="w-[40px] md:w-[60px] h-8 md:h-10 flex items-center justify-center border border-l-0 border-gray-700 rounded-r-3xl bg-gray-800"
                     onClick={() => searchQueryHandler("searchButton")}
                 >
                     <IoIosSearch className="text-white text-xl" />
@@ -90,10 +90,10 @@ const Header = () => {
             </div>
             <div className="flex items-center">
                 <div className="hidden md:flex">
-                    <div className="flex items-center justify-center h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]">
+                    <div className="flex items-center justify-center h-10 w-10 rounded-full hover:bg-gray-700">
                         <RiVideoAddLine className="text-white text-xl cursor-pointer" />
                     </div>
-                    <div className="flex items-center justify-center ml-2 h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]">
+                    <div className="flex items-center justify-center ml-2 h-10 w-10 rounded-full hover:bg-gray-700">
                         <FiBell className="text-white text-xl cursor-pointer" />
                     </div>
                 </div>
